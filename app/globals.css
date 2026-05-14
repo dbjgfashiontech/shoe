@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #fff5f5;
+  --color-brand-100: #ffe3e3;
+  --color-brand-200: #ffc9c9;
+  --color-brand-300: #ff9b9b;
+  --color-brand-400: #ff6b6b;
+  --color-brand-500: #ef4444;
+  --color-brand-600: #d8232a;
+  --color-brand-700: #b91c1c;
+  --color-brand-800: #991b1b;
+  --color-brand-900: #7f1d1d;
+  --color-brand-ink: #1f2937;
+  --color-brand-muted: #6b7280;
+  --color-brand-line: #f3d4d7;
+  --color-brand-surface: #fffafa;
+  --color-brand-surface-strong: #fff1f2;
+  --font-family-serif: Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  color: #1f2937;
+}
+
+a {
+  transition: color 180ms ease, opacity 180ms ease, border-color 180ms ease,
+    background-color 180ms ease;
+}
+
+.brand-gradient {
+  background: linear-gradient(180deg, #e53935 0%, #d8232a 100%);
+}
+
+.brand-panel {
+  background: #fff;
+  border: 1px solid #eceff3;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+}
+
+.brand-dark-panel {
+  background: #fff;
+  border: 1px solid #eceff3;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+}
+
+.brand-button {
+  background: #d8232a;
+  color: #fff;
+  box-shadow: 0 10px 22px rgba(216, 35, 42, 0.2);
+}
+
+.brand-button:hover {
+  background: #c61f26;
+}
+
+.brand-button-secondary {
+  background: #fff;
+  color: #b91c1c;
+  border: 1px solid rgba(216, 35, 42, 0.24);
+}
+
+.brand-button-secondary:hover {
+  background: #fff7f7;
+  border-color: rgba(216, 35, 42, 0.45);
+}
+
+.brand-link {
+  color: #b91c1c;
+}
+
+.brand-link:hover {
+  color: #991b1b;
+}
+
+.brand-input {
+  border: 1px solid rgba(216, 35, 42, 0.14);
+  background: rgba(255, 255, 255, 0.96);
+  color: #1f2937;
+}
+
+.brand-input:focus {
+  outline: none;
+  border-color: rgba(216, 35, 42, 0.7);
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.12);
+}
+
+.brand-chip {
+  background: #fff1f2;
+  color: #b91c1c;
+  border: 1px solid rgba(216, 35, 42, 0.12);
+}
+
+.text-brand-gradient {
+  background: linear-gradient(135deg, #ef4444, #991b1b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
