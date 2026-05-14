@@ -5,7 +5,7 @@ export default function HeroBanner() {
     <section className="relative overflow-hidden bg-white">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(216,35,42,0.06),transparent_22%),linear-gradient(180deg,#ffffff_0%,#fffdfd_100%)]" />
       <div className="absolute right-0 top-0 hidden xl:block h-full w-[34%] bg-red-50" />
-      <div className="absolute left-6 top-8 hidden md:flex gap-3 z-10">
+      <div className="absolute left-6 top-8 hidden md:flex gap-3 z-10 ">
         {["Street", "Sport", "Daily"].map((tag) => (
           <span
             key={tag}

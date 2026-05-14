@@ -1,7 +1,6 @@
 import {
   FiTruck,
   FiClock,
-  FiMapPin,
   FiAlertCircle,
   FiPackage,
   FiPhone,
@@ -17,42 +16,32 @@ export default function ShippingPolicyPage() {
         <h1 className="text-4xl font-bold text-brand-ink font-serif mb-4">
           Shipping Policy
         </h1>
+        <p className="text-gray-400 text-sm mb-4">Last Updated: 3rd March 2026</p>
         <div className="w-16 h-1 rounded-full brand-gradient" />
       </div>
 
       <div className="space-y-8">
         {[
           {
-            icon: <FiMapPin className="text-brand-700" size={22} />,
-            title: "1. Shipping Coverage",
-            content: (
-              <p className="text-gray-600 leading-relaxed">
-                We deliver across <span className="font-semibold text-brand-ink">India</span> from metro cities to remote locations.
-              </p>
-            ),
-          },
-          {
             icon: <FiClock className="text-brand-700" size={22} />,
-            title: "2. Processing Time",
+            title: "1. Order Processing",
             content: (
               <p className="text-gray-600 leading-relaxed">
                 Orders are processed within{" "}
-                <span className="font-semibold text-brand-ink">1-3 business days</span>{" "}
-                after confirmation.
+                <span className="font-semibold text-brand-ink">1-3 business days</span>.
               </p>
             ),
           },
           {
             icon: <FiTruck className="text-brand-700" size={22} />,
-            title: "3. Delivery Time",
+            title: "2. Delivery Timeline",
             content: (
               <ul className="space-y-2">
                 {[
-                  ["Metro cities", "3-5 business days"],
-                  ["Non-metro areas", "5-8 business days"],
-                  ["Remote locations", "May take longer"],
+                  ["Estimated delivery", "3-7 business days"],
+                  ["Note", "Delivery times may vary based on location"],
                 ].map(([place, time]) => (
-                  <li key={place} className="flex justify-between items-center py-2 border-b border-red-50 last:border-0">
+                  <li key={place} className="flex justify-between items-center py-2 border-b border-red-50 last:border-0 gap-3">
                     <span className="text-gray-600">{place}</span>
                     <span className="text-sm font-semibold text-brand-ink bg-red-50 px-3 py-1 rounded-full">
                       {time}
@@ -64,85 +53,45 @@ export default function ShippingPolicyPage() {
           },
           {
             icon: <span className="text-brand-700 text-xl font-bold">Rs</span>,
-            title: "4. Shipping Charges",
+            title: "3. Shipping Charges",
             content: (
-              <div className="space-y-3">
-                <div className="flex items-center justify-between bg-green-50 border border-green-100 rounded-xl p-4 gap-3">
-                  <span className="text-gray-700 font-medium">Orders above Rs.5,000</span>
-                  <span className="text-green-700 font-bold text-sm bg-green-100 px-3 py-1 rounded-full">
-                    FREE Shipping
-                  </span>
-                </div>
-                <div className="flex items-center justify-between bg-red-50 border border-red-100 rounded-xl p-4 gap-3">
-                  <span className="text-gray-700 font-medium">Orders below Rs.5,000</span>
-                  <span className="text-brand-700 font-bold text-sm bg-white px-3 py-1 rounded-full">
-                    Rs.250 flat fee
-                  </span>
-                </div>
+              <div className="bg-red-50 border border-red-100 rounded-xl p-4">
+                <p className="text-gray-700 font-medium">
+                  Shipping charges (if any) will be displayed at checkout.
+                </p>
+              </div>
+            ),
+          },
+          {
+            icon: <FiAlertCircle className="text-brand-700" size={22} />,
+            title: "4. Delays",
+            content: (
+              <div>
+                <p className="text-gray-600 mb-3">
+                  We are not responsible for delays caused by:
+                </p>
+                <ul className="space-y-1.5">
+                  {["Courier partners", "Natural disasters", "Unforeseen circumstances"].map(
+                    (item) => (
+                      <li key={item} className="flex items-center gap-2 text-gray-600 text-sm">
+                        <span className="w-1.5 h-1.5 bg-brand-600 rounded-full shrink-0" />
+                        {item}
+                      </li>
+                    )
+                  )}
+                </ul>
               </div>
             ),
           },
           {
             icon: <FiPackage className="text-brand-700" size={22} />,
-            title: "5. Order Tracking",
+            title: "5. Contact",
             content: (
-              <p className="text-gray-600 leading-relaxed">
-                Tracking details will be shared via{" "}
-                <span className="font-semibold text-brand-ink">SMS/email</span> after dispatch.
-              </p>
-            ),
-          },
-          {
-            icon: <FiAlertCircle className="text-brand-700" size={22} />,
-            title: "6. Delays",
-            content: (
-              <div>
-                <p className="text-gray-600 mb-3">Delivery may be delayed due to:</p>
-                <ul className="space-y-1.5">
-                  {["Weather conditions", "Logistics issues", "Public holidays or strikes"].map((item) => (
-                    <li key={item} className="flex items-center gap-2 text-gray-600 text-sm">
-                      <span className="w-1.5 h-1.5 bg-brand-600 rounded-full shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+              <div className="space-y-1 text-sm text-gray-600">
+                <p>JGDB Footwear Private Limited</p>
+                <p>Email: info@jgdbfootwear.com</p>
+                <p>Phone: 9896836869</p>
               </div>
-            ),
-          },
-          {
-            icon: <FiTruck className="text-brand-700" size={22} />,
-            title: "7. Failed Deliveries",
-            content: (
-              <div>
-                <p className="text-gray-600 mb-3">
-                  If delivery fails due to incorrect address or unavailability:
-                </p>
-                <ul className="space-y-1.5">
-                  {["Re-delivery may be attempted", "Additional charges may apply"].map((item) => (
-                    <li key={item} className="flex items-center gap-2 text-gray-600 text-sm">
-                      <span className="w-1.5 h-1.5 bg-brand-600 rounded-full shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ),
-          },
-          {
-            icon: <FiAlertCircle className="text-brand-700" size={22} />,
-            title: "8. Damaged Packages",
-            content: (
-              <ul className="space-y-1.5">
-                {[
-                  "Do not accept visibly damaged packages.",
-                  "Report immediately to our support team.",
-                ].map((item) => (
-                  <li key={item} className="flex items-center gap-2 text-gray-600 text-sm">
-                    <span className="w-1.5 h-1.5 bg-red-400 rounded-full shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
             ),
           },
         ].map((section) => (
@@ -161,8 +110,11 @@ export default function ShippingPolicyPage() {
           <FiPhone className="text-brand-700 mx-auto mb-3" size={24} />
           <p className="text-brand-ink font-semibold mb-1">Need Help?</p>
           <p className="text-gray-600 text-sm mb-3">Reach out to our support team</p>
-          <a href="mailto:info@DBJGfashion.com" className="brand-link text-sm font-semibold">
-            info@DBJGfashion.com
+          <a
+            href="mailto:info@jgdbfootwear.com"
+            className="brand-link text-sm font-semibold"
+          >
+            info@jgdbfootwear.com
           </a>
         </div>
       </div>

@@ -27,15 +27,18 @@ export default function TermsConditionsPage() {
 
         <div className="flex items-center gap-3 text-sm text-gray-500 mb-5">
           <span className="bg-red-50 text-brand-700 px-3 py-1 rounded-full font-medium">
-            Last Updated: 04th April 2026
+            Last Updated: 3rd March 2026
           </span>
         </div>
 
         <p className="text-gray-600 leading-relaxed max-w-2xl">
-          Welcome to <span className="font-semibold text-brand-ink">DBJG Fashion</span>.
-          These Terms and Conditions govern your use of our website and
-          services. By accessing or purchasing from our website, you agree to
-          comply with these Terms.
+          Welcome to{" "}
+          <span className="font-semibold text-brand-ink">
+            JGDB Footwear Private Limited
+          </span>
+          . These Terms and Conditions govern your use of our website and
+          services. By accessing or using our website, you agree to comply with
+          these Terms.
         </p>
 
         <div className="w-16 h-1 rounded-full brand-gradient mt-5" />
@@ -45,13 +48,30 @@ export default function TermsConditionsPage() {
         {[
           {
             icon: <FiFileText className="text-brand-700" size={22} />,
-            title: "1. General",
+            title: "1. Company Information",
             content: (
               <ul className="space-y-2">
                 {[
-                  "This website is operated by DBJG Fashion.",
-                  "You must be at least 15 years old or using the website under parental supervision.",
-                  "We reserve the right to update or modify these Terms at any time.",
+                  "JGDB Footwear Private Limited is a company incorporated under the laws of India, with its registered office in the State of Haryana.",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-gray-600 text-sm">
+                    <span className="w-1.5 h-1.5 bg-brand-600 rounded-full mt-2 shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            ),
+          },
+          {
+            icon: <FiUser className="text-brand-700" size={22} />,
+            title: "2. Use of the Website",
+            content: (
+              <ul className="space-y-2">
+                {[
+                  "Use the website only for lawful purposes.",
+                  "Do not engage in any activity that disrupts or interferes with the website.",
+                  "Do not attempt unauthorized access to any part of the website or systems.",
+                  "We reserve the right to suspend or terminate access if these terms are violated.",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-gray-600 text-sm">
                     <span className="w-1.5 h-1.5 bg-brand-600 rounded-full mt-2 shrink-0" />
@@ -63,13 +83,14 @@ export default function TermsConditionsPage() {
           },
           {
             icon: <FiShoppingBag className="text-brand-700" size={22} />,
-            title: "2. Products & Services",
+            title: "3. Products and Services",
             content: (
               <ul className="space-y-2">
                 {[
-                  "All products are subject to availability.",
-                  "Product colors/images may vary depending on device screens.",
-                  "We reserve the right to discontinue products without notice.",
+                  "All products listed, including footwear and related items, are subject to availability.",
+                  "We reserve the right to modify or discontinue products without prior notice.",
+                  "Prices are subject to change at any time without notice.",
+                  "We strive to display product details accurately, but descriptions, images, or other content may not be error-free.",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-gray-600 text-sm">
                     <span className="w-1.5 h-1.5 bg-brand-600 rounded-full mt-2 shrink-0" />
@@ -81,14 +102,14 @@ export default function TermsConditionsPage() {
           },
           {
             icon: <FiCreditCard className="text-brand-700" size={22} />,
-            title: "3. Pricing & Payments",
+            title: "4. Orders and Payments",
             content: (
               <div className="space-y-3">
                 {[
-                  "All prices are listed in INR and GST details will be specified where applicable.",
-                  "Prices may change without prior notice.",
-                  "Payments are accepted through approved methods like UPI, Debit/Credit Cards, Net Banking, and Wallets.",
-                  "DBJG Fashion is not responsible for payment failures caused by third-party gateways.",
+                  "By placing an order, you agree that all information provided is accurate and complete.",
+                  "We reserve the right to cancel or refuse any order at our discretion.",
+                  "Payment must be made through the approved payment methods available on the website.",
+                  "In case of cancellation by us, any payment made will be refunded as per our refund policy.",
                 ].map((item) => (
                   <div key={item} className="bg-red-50 border border-red-100 rounded-xl p-4 text-sm text-gray-700">
                     {item}
@@ -98,47 +119,14 @@ export default function TermsConditionsPage() {
             ),
           },
           {
-            icon: <FiShoppingBag className="text-brand-700" size={22} />,
-            title: "4. Orders",
-            content: (
-              <div className="space-y-4">
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Once an order is placed, you will receive confirmation via
-                  email or SMS.
-                </p>
-                <div className="bg-red-50 border border-red-100 rounded-xl p-4">
-                  <p className="text-sm font-semibold text-red-700 mb-3">
-                    Orders may be cancelled due to:
-                  </p>
-                  <ul className="space-y-2">
-                    {[
-                      "Product unavailability",
-                      "Pricing errors",
-                      "Suspicious or fraudulent activity",
-                    ].map((item) => (
-                      <li key={item} className="flex items-center gap-2 text-sm text-gray-700">
-                        <span className="w-1.5 h-1.5 bg-red-400 rounded-full shrink-0" />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <p className="text-sm text-gray-600">
-                  If an order is cancelled after payment, a refund will be
-                  processed.
-                </p>
-              </div>
-            ),
-          },
-          {
             icon: <FiTruck className="text-brand-700" size={22} />,
-            title: "5. Shipping & Delivery",
+            title: "5. Shipping and Delivery",
             content: (
               <ul className="space-y-2">
                 {[
-                  "Delivery timelines are estimates and may vary.",
-                  "DBJG Fashion is not liable for delays caused by logistics partners.",
-                  "Shipping charges (if applicable) will be displayed during checkout.",
+                  "Delivery timelines are estimates and may vary based on location and external factors.",
+                  "We are not liable for delays caused by courier services or unforeseen circumstances.",
+                  "Risk of loss passes to the customer upon delivery.",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-gray-600 text-sm">
                     <span className="w-1.5 h-1.5 bg-brand-600 rounded-full mt-2 shrink-0" />
@@ -150,14 +138,13 @@ export default function TermsConditionsPage() {
           },
           {
             icon: <FiRefreshCw className="text-brand-700" size={22} />,
-            title: "6. Returns & Refunds",
+            title: "6. Returns and Refunds",
             content: (
               <div className="space-y-3">
                 {[
-                  "Returns are accepted only according to our Return Policy.",
-                  "Products must be unused and returned with original packaging and tags.",
-                  "Refunds are processed within 15 business days after approval.",
-                  "Certain items like innerwear or sale products may not be eligible for return.",
+                  "Returns and refunds are governed by our Return Policy.",
+                  "Products must be returned in unused condition with original packaging.",
+                  "Refund timelines may vary depending on the payment method.",
                 ].map((item) => (
                   <div key={item} className="border border-red-100 rounded-xl p-4 bg-white text-sm text-gray-700">
                     {item}
@@ -172,70 +159,86 @@ export default function TermsConditionsPage() {
             content: (
               <div className="bg-red-50 border border-red-100 rounded-2xl p-5">
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  All images, logos, graphics, text, and website content are
-                  the intellectual property of <span className="text-brand-ink font-semibold">DBJG Fashion</span>.
-                  Unauthorized use, reproduction, or distribution is strictly
-                  prohibited.
+                  All content on this website, including logos, images, product
+                  designs, text, and graphics, is the property of{" "}
+                  <span className="text-brand-ink font-semibold">
+                    JGDB Footwear Private Limited
+                  </span>{" "}
+                  and is protected under applicable intellectual property laws.
+                  You may not reproduce, distribute, or use any content without
+                  prior written consent.
                 </p>
               </div>
             ),
           },
           {
-            icon: <FiUser className="text-brand-700" size={22} />,
-            title: "8. User Conduct",
+            icon: <FiAlertTriangle className="text-brand-700" size={22} />,
+            title: "8. Limitation of Liability",
             content: (
-              <div>
-                <p className="text-gray-600 mb-3 text-sm">You agree not to:</p>
-                <ul className="space-y-2">
-                  {[
-                    "Use the website for unlawful activities",
-                    "Upload harmful or malicious content",
-                    "Attempt unauthorized access to our systems",
-                  ].map((item) => (
-                    <li key={item} className="flex items-center gap-2 text-sm text-gray-700">
-                      <span className="w-1.5 h-1.5 bg-red-400 rounded-full shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+              <div className="space-y-3">
+                <div className="bg-red-50 border border-red-100 rounded-xl p-4">
+                  <p className="text-sm text-gray-700">
+                    We shall not be liable for any indirect, incidental, or
+                    consequential damages.
+                  </p>
+                </div>
+                <div className="bg-white border border-red-100 rounded-xl p-4">
+                  <p className="text-sm text-gray-700">
+                    We do not guarantee uninterrupted or error-free website
+                    operation. Your use of the website is at your own risk.
+                  </p>
+                </div>
               </div>
             ),
           },
           {
             icon: <FiLock className="text-brand-700" size={22} />,
-            title: "9. Privacy",
+            title: "9. User Accounts",
             content: (
-              <p className="text-gray-600 leading-relaxed text-sm">
-                Your personal information is governed by our Privacy Policy. We
-                are committed to protecting your data in accordance with
-                applicable Indian laws.
-              </p>
-            ),
-          },
-          {
-            icon: <FiAlertTriangle className="text-brand-700" size={22} />,
-            title: "10. Limitation of Liability",
-            content: (
-              <div className="space-y-3">
-                <div className="bg-red-50 border border-red-100 rounded-xl p-4">
-                  <p className="text-sm text-gray-700">
-                    DBJG Fashion shall not be liable for indirect, incidental,
-                    or consequential damages arising from website or product
-                    usage.
-                  </p>
-                </div>
-                <div className="bg-white border border-red-100 rounded-xl p-4">
-                  <p className="text-sm text-gray-700">
-                    Our total liability shall not exceed the amount paid for
-                    the purchased product.
-                  </p>
-                </div>
-              </div>
+              <ul className="space-y-2">
+                {[
+                  "You are responsible for maintaining confidentiality of your login details.",
+                  "You agree to accept responsibility for all activities under your account.",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-gray-600 text-sm">
+                    <span className="w-1.5 h-1.5 bg-brand-600 rounded-full mt-2 shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
             ),
           },
           {
             icon: <FiGlobe className="text-brand-700" size={22} />,
-            title: "11. Governing Law",
+            title: "10. Third-Party Links",
+            content: (
+              <ul className="space-y-2">
+                {[
+                  "Our website may contain links to third-party websites.",
+                  "We do not control or endorse those websites.",
+                  "We are not responsible for their content or practices.",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-gray-600 text-sm">
+                    <span className="w-1.5 h-1.5 bg-brand-600 rounded-full mt-2 shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            ),
+          },
+          {
+            icon: <FiShield className="text-brand-700" size={22} />,
+            title: "11. Privacy",
+            content: (
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Your use of our website is also governed by our Privacy Policy,
+                which outlines how we collect and use your data.
+              </p>
+            ),
+          },
+          {
+            icon: <FiPhone className="text-brand-700" size={22} />,
+            title: "12. Governing Law and Jurisdiction",
             content: (
               <div className="space-y-3">
                 <p className="text-gray-600 text-sm">
@@ -243,47 +246,47 @@ export default function TermsConditionsPage() {
                 </p>
                 <div className="bg-white border border-red-100 rounded-xl p-4">
                   <p className="text-sm text-gray-700">
-                    Any disputes shall be subject to the jurisdiction of courts
-                    in <span className="font-semibold text-brand-ink">Bhubaneswar, Odisha</span>.
+                    Any disputes arising shall be subject to the exclusive
+                    jurisdiction of the courts in{" "}
+                    <span className="font-semibold text-brand-ink">
+                      Haryana, India
+                    </span>
+                    .
                   </p>
                 </div>
               </div>
             ),
           },
           {
+            icon: <FiSlash className="text-brand-700" size={22} />,
+            title: "13. Changes to Terms",
+            content: (
+              <p className="text-gray-600 leading-relaxed text-sm">
+                We reserve the right to update or modify these Terms at any
+                time. Changes will be effective upon posting on this page.
+              </p>
+            ),
+          },
+          {
             icon: <FiPhone className="text-brand-700" size={22} />,
-            title: "12. Contact Information",
+            title: "14. Contact Us",
             content: (
               <div className="bg-red-50 border border-red-100 rounded-2xl p-5">
                 <p className="text-sm text-gray-700 mb-3">
-                  For questions regarding these Terms, contact us:
+                  For any questions regarding these Terms, please contact:
                 </p>
-                <a href="mailto:info@dgjbfashion.com" className="brand-link font-semibold text-sm">
-                  info@dgjbfashion.com
+                <div className="space-y-1 text-sm text-gray-700">
+                  <p>JGDB Footwear Private Limited</p>
+                  <p>House No 126, Ward No. 6, Mata Gate, Jhajjar, Haryana - 124103</p>
+                  <p>India</p>
+                </div>
+                <a
+                  href="mailto:info@jgdbfootwear.com"
+                  className="brand-link font-semibold text-sm block mt-3"
+                >
+                  info@jgdbfootwear.com
                 </a>
               </div>
-            ),
-          },
-          {
-            icon: <FiAlertTriangle className="text-brand-700" size={22} />,
-            title: "13. Force Majeure",
-            content: (
-              <p className="text-gray-600 leading-relaxed text-sm">
-                DBJG Fashion shall not be held responsible for delays or
-                failure caused by events beyond our control, including natural
-                disasters, pandemics, strikes, or government restrictions.
-              </p>
-            ),
-          },
-          {
-            icon: <FiSlash className="text-brand-700" size={22} />,
-            title: "14. Termination",
-            content: (
-              <p className="text-gray-600 leading-relaxed text-sm">
-                We reserve the right to terminate or suspend access to our
-                website immediately without prior notice for violations of these
-                Terms.
-              </p>
             ),
           },
         ].map((section) => (
@@ -301,7 +304,7 @@ export default function TermsConditionsPage() {
         <div className="brand-panel rounded-[1.5rem] p-8 text-center border-t-4 border-t-brand-600">
           <FiShield className="text-brand-700 mx-auto mb-4" size={28} />
           <h3 className="text-brand-ink text-lg font-semibold mb-2">
-            Thank You for Trusting DBJG Fashion
+            Thank You for Trusting JGDB Footwear
           </h3>
           <p className="text-gray-600 text-sm leading-relaxed max-w-xl mx-auto">
             By continuing to use our website, you acknowledge that you have

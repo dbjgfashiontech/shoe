@@ -35,16 +35,16 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-red-100/80 bg-white/95 shadow-[0_10px_32px_rgba(127,29,29,0.08)] backdrop-blur">
       <div className="brand-gradient text-center text-xs py-2 font-semibold tracking-[0.28em] uppercase text-white">
-        Free Shipping on Orders Above Rs.1999 | Call: +91 8708813685
+        Free Shipping on Orders Above Rs.1999 | Call: +91 9896836869
       </div>
 
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-18">
         <Link href="/" className="flex flex-col leading-none">
           <span className="text-xl font-bold tracking-[0.35em] text-brand-700 font-serif">
-            DBJG
+            JGDB
           </span>
           <span className="text-[10px] tracking-[0.38em] text-gray-500 uppercase mt-1">
-            Fashion
+            Footwear
           </span>
         </Link>
 
@@ -61,10 +61,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Link
-            href="/cart"
-            className="relative text-gray-500 hover:text-brand-700"
-          >
+          <Link href="/cart" className="relative text-gray-500 hover:text-brand-700">
             <FiShoppingCart size={21} />
             {totalItems > 0 && (
               <span className="absolute -top-2 -right-2 bg-brand-600 text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center shadow-sm">

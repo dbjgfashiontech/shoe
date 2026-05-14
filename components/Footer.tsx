@@ -10,14 +10,14 @@ export default function Footer() {
         <div className="md:col-span-1">
           <div className="mb-3">
             <span className="text-2xl font-bold text-brand-700 font-serif tracking-[0.3em]">
-              DBJG
+              JGDB
             </span>
             <span className="block text-xs tracking-[0.35em] text-gray-500 uppercase mt-1">
-              Fashion Private Limited
+              Footwear Private Limited
             </span>
           </div>
           <p className="text-sm text-gray-600 leading-relaxed">
-            Bringing premium fashion to every doorstep.
+            Delivering stylish, comfortable, and durable footwear across India.
           </p>
           <div className="flex gap-3 mt-5">
             {[{ icon: <FaInstagram />, label: "Instagram" }].map((s) => (
@@ -93,29 +93,30 @@ export default function Footer() {
             <li className="flex gap-2 items-start">
               <FiMapPin className="mt-0.5 shrink-0 text-brand-700" />
               <span className="text-gray-600">
-                House No 126, Ward No. 6, Mata Gate, Jhajjar, Haryana - 124103
+                House No 126, Ward No. 6, Mata Gate, Jhajjar, Haryana - 124103,
+                India
               </span>
             </li>
             <li className="flex gap-2 items-center">
               <FiPhone className="shrink-0 text-brand-700" />
-              <a href="tel:+918708813685" className="text-gray-600 hover:text-brand-700">
-                +91 8708813685
+              <a href="tel:+919896836869" className="text-gray-600 hover:text-brand-700">
+                +91 9896836869
               </a>
             </li>
             <li className="flex gap-2 items-center">
               <FiMail className="shrink-0 text-brand-700" />
               <a
-                href="mailto:info@dbjgfashion.com"
+                href="mailto:info@jgdbfootwear.com"
                 className="text-gray-600 hover:text-brand-700"
               >
-                info@dbjgfashion.com
+                info@jgdbfootwear.com
               </a>
             </li>
           </ul>
         </div>
       </div>
       <div className="border-t border-gray-100 text-center text-xs text-gray-500 py-4">
-        Copyright {new Date().getFullYear()} DBJG Fashion Private Limited. All
+        Copyright {new Date().getFullYear()} JGDB Footwear Private Limited. All
         rights reserved.
       </div>
     </footer>

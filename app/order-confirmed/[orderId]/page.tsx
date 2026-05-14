@@ -287,8 +287,8 @@ export default function OrderConfirmedPage() {
               <FiPhone className="text-brand-700 shrink-0" size={18} />
               <span>
                 Need help? Call{" "}
-                <a href="tel:+918708813685" className="brand-link font-semibold">
-                  +91 8708813685
+                <a href="tel:+919896836869" className="brand-link font-semibold">
+                  +91 9896836869
                 </a>
               </span>
             </div>

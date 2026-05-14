@@ -60,7 +60,7 @@ export async function POST(req: NextRequest) {
     await connectDB();
     const body = await req.json();
 
-    const orderId = "DBJG" + Math.floor(100000 + Math.random() * 900000);
+    const orderId = "JGDB" + Math.floor(100000 + Math.random() * 900000);
     const deliveryDate = new Date();
     deliveryDate.setDate(deliveryDate.getDate() + 4);
 

@@ -7,16 +7,19 @@ import Footer from "@/components/Footer";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "DBJG Fashion | Premium Clothing & Accessories",
-  description: "DBJG Fashion Private Limited – Premium collection from Jhajjar, Haryana.",
+  title: "JGDB Footwear | Stylish & Comfortable Footwear",
+  description:
+    "JGDB Footwear Private Limited - Stylish, comfortable, and durable footwear from Jhajjar, Haryana.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
-        
-        {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-514HKELX3K"
           strategy="afterInteractive"

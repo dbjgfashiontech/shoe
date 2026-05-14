@@ -15,14 +15,14 @@ export default function AboutPage() {
         />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <p className="text-brand-700 text-xs tracking-[0.4em] uppercase font-semibold mb-4">
-            Est. 2015
+            About Us
           </p>
           <h1 className="text-4xl md:text-6xl font-bold text-brand-ink font-serif mb-5">
             Our Story
           </h1>
           <p className="text-gray-600 text-lg leading-relaxed max-w-2xl mx-auto">
-            Born in the heart of Jhajjar, Haryana, DBJG Fashion brings premium
-            clothing and accessories to every corner of India.
+            Welcome to JGDB Footwear Private Limited, a trusted footwear
+            company based in Haryana, India.
           </p>
         </div>
       </section>
@@ -33,18 +33,18 @@ export default function AboutPage() {
             Who We Are
           </p>
           <h2 className="text-3xl font-bold text-brand-ink font-serif mb-5 leading-snug">
-            DBJG Fashion Private Limited
+            JGDB Footwear Private Limited
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            DBJG Fashion was founded with a single mission to make quality
-            fashion accessible to everyone. We curate, design and source
-            premium clothing for men and women along with a beautiful range of
-            accessories including belts, wallets, chains, bracelets and more.
+            JGDB Footwear Private Limited is dedicated to delivering
+            high-quality, stylish, and comfortable footwear for everyday use.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            Located in Jhajjar, Haryana, we are proud to serve customers across
-            India. Our collections blend traditional craftsmanship with modern
-            aesthetics, ensuring every piece tells a story.
+            Founded with a vision to combine durability, design, and
+            affordability, we strive to create footwear that meets the evolving
+            needs of modern consumers. Whether it is casual wear, daily
+            essentials, or trend-focused designs, our products are crafted with
+            attention to detail and quality materials.
           </p>
         </div>
 
@@ -52,18 +52,18 @@ export default function AboutPage() {
           {[
             {
               icon: <FiAward className="text-brand-700" size={22} />,
-              title: "Premium Quality",
-              desc: "Every product is carefully selected for quality, durability and style.",
+              title: "Quality Craftsmanship",
+              desc: "We focus on high product standards, comfort, and durable footwear.",
             },
             {
               icon: <FiHeart className="text-brand-700" size={22} />,
-              title: "Made with Love",
-              desc: "Passionate about fashion and committed to customer satisfaction.",
+              title: "Customer First",
+              desc: "Affordable pricing and customer satisfaction remain at the center of our work.",
             },
             {
               icon: <FiTruck className="text-brand-700" size={22} />,
-              title: "Fast Delivery",
-              desc: "Swift delivery to your doorstep, anywhere in India.",
+              title: "Reliable Delivery",
+              desc: "We are committed to reliable delivery, service, and continuously improving our designs.",
             },
           ].map((v) => (
             <div key={v.title} className="brand-panel flex gap-4 rounded-[1.5rem] p-5">
@@ -101,6 +101,8 @@ export default function AboutPage() {
                     House No 126, Ward No. 6, Mata Gate,
                     <br />
                     Jhajjar, Haryana - 124103
+                    <br />
+                    India
                   </p>
                 </div>
               </div>
@@ -113,10 +115,10 @@ export default function AboutPage() {
                     Mobile / WhatsApp
                   </p>
                   <a
-                    href="tel:+918708813685"
+                    href="tel:+919896836869"
                     className="text-brand-700 text-sm hover:text-brand-800"
                   >
-                    +91 8708813685
+                    +91 9896836869
                   </a>
                 </div>
               </div>

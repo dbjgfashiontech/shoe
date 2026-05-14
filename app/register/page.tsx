@@ -68,16 +68,16 @@ export default function RegisterPage() {
           <div className="px-8 py-10">
             <div className="text-center mb-8">
               <span className="text-3xl font-bold text-brand-700 font-serif tracking-[0.3em]">
-                DBJG
+                JGDB
               </span>
               <span className="block text-xs tracking-[0.35em] text-gray-400 uppercase mt-1">
-                Fashion
+                Footwear
               </span>
               <h1 className="text-xl font-bold text-brand-ink mt-4">
                 Create Account
               </h1>
               <p className="text-gray-500 text-sm mt-1">
-                Join the DBJG Fashion family
+                Join the JGDB Footwear family
               </p>
             </div>
 
