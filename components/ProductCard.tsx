@@ -97,7 +97,7 @@ export default function ProductCard({ product }: { product: Product }) {
             <p className="text-xs font-medium text-gray-600 mb-2">Select Size</p>
 
             <div className="flex gap-2 flex-wrap">
-              {["S", "M", "L", "XL"].map((size) => (
+              {["6", "7", "8", "9","10"].map((size) => (
                 <button
                   key={size}
                   onClick={() => setSelectedSize(size)}

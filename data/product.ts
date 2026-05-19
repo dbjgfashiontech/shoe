@@ -9,7 +9,7 @@ export const products: Product[] = [
     price: 2499,
     originalPrice: 3299,
     image:
-      "https://static.nike.com/a/images/t_PDP_144_v1/f_auto%2Cq_auto%3Aeco%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/35db0f3d-f8be-488d-8abb-c07fcc7087af/FLEX%2BEXPERIENCE%2BRN%2B12%2BWIDE.png",
+      "https://m.media-amazon.com/images/I/418i1oRwB+L._AC_UY1000_.jpg",
     badge: "Trending",
     description:
       "Lightweight running shoes designed for all-day comfort.",
@@ -20,8 +20,7 @@ export const products: Product[] = [
     category: "Men",
     price: 1999,
     image:
-      "https://static.nike.com/a/images/t_PDP_144_v1/f_auto%2Cq_auto%3Aeco%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/05021bfa-ea0a-4456-b0fa-e68b76307673/WMNS%2BAIR%2BFORCE%2B1%2B%2707.png",
-    badge: "New",
+"https://m.media-amazon.com/images/I/51jZ6iypbCL._AC_UY1000_.jpg",    badge: "New",
     description:
       "Minimal white sneakers perfect for casual everyday wear.",
   },
@@ -43,8 +42,7 @@ export const products: Product[] = [
     category: "Men",
     price: 2899,
     image:
-      "https://static.nike.com/a/images/t_PDP_144_v1/f_auto%2Cq_auto%3Aeco%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/dfcf37ea-fd30-47b9-968e-0adfcfbdc7be/W%2BNIKE%2BDUNK%2BLOW.png",
-    description:
+"https://m.media-amazon.com/images/I/61f-MFx1PyL._AC_UY1000_.jpg",    description:
       "Bold high-top sneakers made for urban street fashion.",
   },
   {
@@ -53,8 +51,7 @@ export const products: Product[] = [
     category: "Men",
     price: 2299,
     image:
-      "https://static.nike.com/a/images/t_PDP_144_v1/f_auto%2Cq_auto%3Aeco%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/637961f9-7682-4c9a-80fe-9c72c6f73cb2/NIKE%2BFLEX%2BCONTROL%2BTR4.png",
-    badge: "Sale",
+"https://m.media-amazon.com/images/I/61z+6hB-L-L._AC_UY1000_.jpg",    badge: "Sale",
     description:
       "Durable gym and training shoes with superior grip.",
   },
@@ -75,8 +72,7 @@ export const products: Product[] = [
     category: "Men",
     price: 2999,
     image:
-      "https://static.nike.com/a/images/t_PDP_144_v1/f_auto%2Cq_auto%3Aeco%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/2c417bb5-d775-42cd-adad-f4bdb7cca3a8/W%2BNIKE%2BAIR%2BMAX%2BNUAXIS%2BSE.png",
-    badge: "Trending",
+"https://m.media-amazon.com/images/I/717cuQbVMKL._AC_UY1000_DpWeblab_.jpg",    badge: "Trending",
     description:
       "Retro chunky sneakers with cushioned sole support.",
   },
@@ -86,8 +82,7 @@ export const products: Product[] = [
     category: "Men",
     price: 1499,
     image:
-      "https://static.nike.com/a/images/t_PDP_144_v1/f_auto%2Cq_auto%3Aeco%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/05021bfa-ea0a-4456-b0fa-e68b76307673/WMNS%2BAIR%2BFORCE%2B1%2B%2707.png",
-    description:
+"https://m.media-amazon.com/images/I/51hYiTle2-L._AC_UY1000_.jpg",    description:
       "Easy slip-on canvas shoes for daily comfort and style.",
   },
   {
@@ -97,7 +92,7 @@ export const products: Product[] = [
     price: 3799,
     originalPrice: 4599,
     image:
-      "https://cdn.media.amplience.net/i/clarks/26188684_GW_1?fmt=auto&img404=imageNotFound&qlt=75&w=2088",
+      "https://m.media-amazon.com/images/I/71YvZ-ajThL._AC_UY1000_.jpg",
     badge: "Premium",
     description:
       "Classic derby shoes crafted for business and formal events.",
@@ -108,7 +103,7 @@ export const products: Product[] = [
     category: "Men",
     price: 4199,
     image:
-      "https://cdn.media.amplience.net/i/clarks/26179401_GW_1?fmt=auto&img404=imageNotFound&qlt=75&w=2088",
+      "https://m.media-amazon.com/images/I/41kg2Zr-1sL._AC_SR290,290_.jpg",
     badge: "Adventure",
     description:
       "Rugged hiking boots built for outdoor performance.",
@@ -122,8 +117,7 @@ export const products: Product[] = [
     price: 2399,
     originalPrice: 2999,
     image:
-      "https://static.nike.com/a/images/t_PDP_144_v1/f_auto%2Cq_auto%3Aeco%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/2c417bb5-d775-42cd-adad-f4bdb7cca3a8/W%2BNIKE%2BAIR%2BMAX%2BNUAXIS%2BSE.png",
-    badge: "Sale",
+"	https://m.media-amazon.com/images/I/41vufvbq7mL._AC_SR290,290_.jpg",    badge: "Sale",
     description:
       "Comfortable running shoes with breathable mesh design.",
   },
@@ -133,8 +127,7 @@ export const products: Product[] = [
     category: "Women",
     price: 2199,
     image:
-      "https://static.nike.com/a/images/t_PDP_144_v1/f_auto%2Cq_auto%3Aeco%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/2c417bb5-d775-42cd-adad-f4bdb7cca3a8/W%2BNIKE%2BAIR%2BMAX%2BNUAXIS%2BSE.png",
-    badge: "Trending",
+"https://m.media-amazon.com/images/I/71DjA4NE0gL.jpg",    badge: "Trending",
     description:
       "Stylish pastel sneakers perfect for casual outfits.",
   },
@@ -166,8 +159,7 @@ export const products: Product[] = [
     category: "Women",
     price: 1699,
     image:
-      "https://static.nike.com/a/images/t_PDP_144_v1/f_auto%2Cq_auto%3Aeco%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/05021bfa-ea0a-4456-b0fa-e68b76307673/WMNS%2BAIR%2BFORCE%2B1%2B%2707.png",
-    description:
+"https://m.media-amazon.com/images/I/31FgHB8xN8L._AC_SR290,290_.jpg",    description:
       "Comfort-fit slip-ons made for daily casual wear.",
   },
   {
@@ -176,8 +168,7 @@ export const products: Product[] = [
     category: "Women",
     price: 2999,
     image:
-      "https://static.nike.com/a/images/t_PDP_144_v1/f_auto%2Cq_auto%3Aeco%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/2c417bb5-d775-42cd-adad-f4bdb7cca3a8/W%2BNIKE%2BAIR%2BMAX%2BNUAXIS%2BSE.png",
-    badge: "New",
+"https://m.media-amazon.com/images/I/61muPHWQ2YL._AC_UY1000_.jpg",    badge: "New",
     description:
       "Platform sneakers with bold modern streetwear aesthetics.",
   },
@@ -195,13 +186,12 @@ export const products: Product[] = [
   },
   {
     id: 18,
-    name: "White Lifestyle Sneakers",
+    name: "Pink Lifestyle Sneakers",
     category: "Women",
     price: 2499,
     image:
-      "https://static.nike.com/a/images/t_PDP_144_v1/f_auto%2Cq_auto%3Aeco%2Cu_9ddf04c7-2a9a-4d76-add1-d15af8f0263d%2Cc_scale%2Cfl_relative%2Cw_1.0%2Ch_1.0%2Cfl_layer_apply/05021bfa-ea0a-4456-b0fa-e68b76307673/WMNS%2BAIR%2BFORCE%2B1%2B%2707.png",
-    description:
-      "Versatile white sneakers for modern everyday fashion.",
+"https://m.media-amazon.com/images/I/812gaw7Z+SL._AC_UY1000_.jpg",    description:
+      "Versatile Pink sneakers for modern everyday fashion.",
   },
   {
     id: 19,
@@ -221,9 +211,123 @@ export const products: Product[] = [
     category: "Women",
     price: 3599,
     image:
-      "https://cdn.media.amplience.net/i/clarks/26185509_GW_1?fmt=auto&img404=imageNotFound&qlt=75&w=2088",
-    badge: "Adventure",
+"https://m.media-amazon.com/images/I/612UKVjanwL._AC_UY1000_.jpg",    badge: "Adventure",
     description:
       "Durable trekking shoes built for outdoor exploration.",
+  },
+    // ================= MORE MEN SHOES =================
+  {
+    id: 21,
+    name: "Retro Runner Sneakers",
+    category: "Men",
+    price: 2799,
+    originalPrice: 3499,
+    image:
+      "https://m.media-amazon.com/images/I/71KLiHiOT-L._AC_UY1000_.jpg",
+    badge: "Retro",
+    description:
+      "Vintage-inspired runner sneakers with modern comfort cushioning.",
+  },
+  {
+    id: 22,
+    name: "Knitted Walking Shoes",
+    category: "Men",
+    price: 1899,
+    image:
+      "https://m.media-amazon.com/images/I/41uVJE27HuL._AC_UY1000_.jpg",
+    badge: "Comfort",
+    description:
+      "Breathable knitted walking shoes designed for everyday use.",
+  },
+  {
+    id: 23,
+    name: "Luxury Monk Strap Shoes",
+    category: "Men",
+    price: 4299,
+    originalPrice: 5199,
+    image:
+      "https://m.media-amazon.com/images/I/61-pcnaAxbL._AC_UY300_.jpg",
+    badge: "Premium",
+    description:
+      "Elegant monk strap shoes crafted for premium formal styling.",
+  },
+  {
+    id: 24,
+    name: "Basketball High Tops",
+    category: "Men",
+    price: 3399,
+    image:
+      "https://m.media-amazon.com/images/I/411lv6xgmFL._AC_SR290,290_.jpg",
+    badge: "Sport",
+    description:
+      "Performance high-top basketball shoes with ankle support.",
+  },
+  {
+    id: 25,
+    name: "Summer Espadrilles",
+    category: "Men",
+    price: 1599,
+    image:
+      "https://m.media-amazon.com/images/I/812uwm4CzAL._AC_UY1000_.jpg",
+    description:
+      "Lightweight espadrilles perfect for relaxed summer outfits.",
+  },
+
+  // ================= MORE WOMEN SHOES =================
+  {
+    id: 26,
+    name: "Floral Canvas Sneakers",
+    category: "Women",
+    price: 2099,
+    originalPrice: 2599,
+    image:
+      "https://m.media-amazon.com/images/I/819SpiRRALL._AC_UY1000_.jpg",
+    badge: "Cute",
+    description:
+      "Floral canvas sneakers with soft comfort and trendy style.",
+  },
+  {
+    id: 27,
+    name: "Minimal White Heels",
+    category: "Women",
+    price: 3199,
+    image:
+      "https://m.media-amazon.com/images/I/51dkJrzgy5L._AC_UY300_.jpg",
+    badge: "Elegant",
+    description:
+      "Minimalist white heels designed for classy evening looks.",
+  },
+  {
+    id: 28,
+    name: "Athleisure Trainers",
+    category: "Women",
+    price: 2899,
+    originalPrice: 3499,
+    image:
+      "https://hips.hearstapps.com/hmg-prod/images/7df110da-b486-47af-bd0d-6e29b4441eee.jpg",
+    badge: "Trending",
+    description:
+      "Modern athleisure trainers combining fashion with performance.",
+  },
+  {
+    id: 29,
+    name: "Soft Fur Winter Boots",
+    category: "Women",
+    price: 3999,
+    image:
+      "https://m.media-amazon.com/images/I/71WjpihHmnL._AC_UY300_.jpg",
+    badge: "Winter",
+    description:
+      "Warm winter boots lined with soft fur for extra comfort.",
+  },
+  {
+    id: 30,
+    name: "Casual Denim Slip-Ons",
+    category: "Women",
+    price: 1799,
+    image:
+      "https://m.media-amazon.com/images/I/71cJ8Yr8UCL._AC_UY1000_.jpg",
+    description:
+      "Stylish denim slip-ons perfect for casual everyday fashion.",
   },
 ];

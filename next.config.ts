@@ -32,6 +32,16 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "cdn.media.amplience.net",
       },
+
+      // Hearst Images
+      {
+        protocol: "https",
+        hostname: "hips.hearstapps.com",
+      },
+      {
+        protocol: "https",
+        hostname: "mencrypted-tbn0.gstatic.com",
+      }
     ],
   },
 };
